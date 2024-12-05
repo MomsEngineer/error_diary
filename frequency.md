@@ -9,11 +9,32 @@
 	Комментарий: Внимательно с возвращаемым значением. Не забывай, что нужно две мапы, а не одна.
 				 Так как есть такой кейс: s="badc" t="baba"
 
-3) 36. Valid Sudoku
-4) 347. Top K Frequent Elements
-5) 242. Valid Anagram
-6) 49. Group Anagrams
-7) 2657. Find the Prefix Common Array of Two Arrays
+3) 36. Valid Sudoku (https://leetcode.com/problems/valid-sudoku/)
+	Сколько раз решал: 1
+	Время: 24:43
+	Комментарий: Будь внимателен! Не забывай добавлять элементы в мапу после проверки!!!
+
+4) 347. Top K Frequent Elements (https://leetcode.com/problems/top-k-frequent-elements/)
+	Сколько раз решал: 1
+	Время: 19:55
+	Комментарий: Внимательно со знаками сравнения, когда работаешь с обратным счетчиком.
+
+5) 242. Valid Anagram (https://leetcode.com/problems/valid-anagram/)
+	Сколько раз решал: 1
+	Время: 06:41
+	Комментарий: Решилось легко.
+
+6) 49. Group Anagrams (https://leetcode.com/problems/group-anagrams/)
+	Сколько раз решал: 1
+	Время: 10:50
+	Комментарий: Используй код строки(количество тех или иных букв) как ключ для мапы, а значение массив сткрок,
+				 подходящих под ключ.
+
+7) 2657. Find the Prefix Common Array of Two Arrays (https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/)
+	Сколько раз решал: 1
+	Время: 20:20
+	Комментарий: Стоит запомнить, что два вхождения означают, что число уже было. Это сильно поможет в решении.
+
 8) 274. H-Index
 9) 266. Palindrome Permutation
 10) 356. Line Reflection
