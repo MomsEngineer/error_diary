@@ -1,46 +1,87 @@
-1) 1. Two Sum (https://leetcode.com/problems/two-sum/)
+1) 1. Two Sum
+	Линк: https://leetcode.com/problems/two-sum/
 	Сколько раз решал: 1
 	Время: 08:04
 	Комментарий: Внимательней с использованием таблицы. Была синтаксическая ошибка в получении значения из мапы.
 
-2) 205. Isomorphic Strings (https://leetcode.com/problems/isomorphic-strings/)
+2) 205. Isomorphic Strings
+	Линк: https://leetcode.com/problems/isomorphic-strings/
 	Сколько раз решал: 1
 	Время: 22:14
 	Комментарий: Внимательно с возвращаемым значением. Не забывай, что нужно две мапы, а не одна.
 				 Так как есть такой кейс: s="badc" t="baba"
 
-3) 36. Valid Sudoku (https://leetcode.com/problems/valid-sudoku/)
+3) 36. Valid Sudoku
+	Линк: https://leetcode.com/problems/valid-sudoku/
 	Сколько раз решал: 1
 	Время: 24:43
 	Комментарий: Будь внимателен! Не забывай добавлять элементы в мапу после проверки!!!
 
-4) 347. Top K Frequent Elements (https://leetcode.com/problems/top-k-frequent-elements/)
+4) 347. Top K Frequent Elements
+	Линк: https://leetcode.com/problems/top-k-frequent-elements/
 	Сколько раз решал: 1
 	Время: 19:55
 	Комментарий: Внимательно со знаками сравнения, когда работаешь с обратным счетчиком.
 
-5) 242. Valid Anagram (https://leetcode.com/problems/valid-anagram/)
+5) 242. Valid Anagram
+	Линк: https://leetcode.com/problems/valid-anagram/
 	Сколько раз решал: 1
 	Время: 06:41
 	Комментарий: Решилось легко.
 
-6) 49. Group Anagrams (https://leetcode.com/problems/group-anagrams/)
+6) 49. Group Anagrams
+	Линк: https://leetcode.com/problems/group-anagrams/
 	Сколько раз решал: 1
 	Время: 10:50
 	Комментарий: Используй код строки(количество тех или иных букв) как ключ для мапы, а значение массив сткрок,
 				 подходящих под ключ.
 
-7) 2657. Find the Prefix Common Array of Two Arrays (https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/)
+7) 2657. Find the Prefix Common Array of Two Arrays
+	Линк: https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/
 	Сколько раз решал: 1
 	Время: 20:20
 	Комментарий: Стоит запомнить, что два вхождения означают, что число уже было. Это сильно поможет в решении.
 
 8) 274. H-Index
+	Линк: https://leetcode.com/problems/h-index/
+	Сколько раз решал: 1
+	Время: 15:01
+	Комментарий: Тяжело идет. Решать не через сортировку!
+	TODO: Прорешать несколько раз.
+
 9) 266. Palindrome Permutation
+	Линк: https://www.lintcode.com/problem/916/
+	Сколько раз решал: 1
+	Время: 08:14
+	Комментарий: Внимательно с последним условием!!! Значение должно быть меньше или равно 1.
+
 10) 356. Line Reflection
+	Линк: https://www.lintcode.com/problem/908/
+	Сколько раз решал: 1
+	Время: 28:28
+	Комментарий: Нужно решить самому без просмотра видео. Помнить о формуле minX + maxX - x.
+				 Объяснить появление формулы. На lintcode может приходить пустой массив.
+	TODO: Прорешать несколько раз.
+
 11) 1464. Maximum Product of Two Elements in an Array
+	Линк: https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
+	Сколько раз решал: 1
+	Время: 07:45
+	Комментарий: Внимательно с возвращаемым значением, вернуть НЕ индексы, а результат.
+
 12) 896. Monotonic Array
+	Линк: https://leetcode.com/problems/monotonic-array/
+	Сколько раз решал: 1
+	Время: 07:00
+	Комментарий: Все ок.
+
 13) 303. Range Sum Query - Immutable
+	Линк: https://leetcode.com/problems/range-sum-query-immutable/
+	Сколько раз решал: 1
+	Время: 10:26
+	Комментарий: Внимательно с методом, передается ссылка на объект, в котором префиксный массив, а не сам префиксный
+				 массив.
+
 14) 724. Find Pivot Index
 15) 560. Subarray Sum Equals K
 16) 268. Missing Number
