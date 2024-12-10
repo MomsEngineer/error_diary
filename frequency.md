@@ -79,6 +79,7 @@
 	Время: 07:45
 	Комментарий: Внимательно с возвращаемым значением, вернуть НЕ индексы, а результат.
 	Tag: IterateArray
+	Interview: 1
 
 12) 896. Monotonic Array
 	Линк: https://leetcode.com/problems/monotonic-array/
@@ -86,6 +87,7 @@
 	Время: 07:00
 	Комментарий: Все ок.
 	Tag: IterateArray
+	Interview: 1
 
 13) 303. Range Sum Query - Immutable
 	Линк: https://leetcode.com/problems/range-sum-query-immutable/
@@ -121,9 +123,34 @@
 	Tag: AllElementsSum
 
 17) 189. Rotate Array
+	Линк: https://leetcode.com/problems/rotate-array/
+	Сколько раз решал: 1
+	Время: 10:46
+	Комментарий: Необходимо самому объяснить почему работает и используется k = k % len(nums).
+	Tag: SplitArray
+
 18) 674. Longest Continuous Increasing Subsequence
+	Линк: https://leetcode.com/problems/rotate-array/
+	Сколько раз решал: 1
+	Время: 06:12
+	Комментарий: Нужно вернуть максимальную длину, а не последнюю. Не забыть проверку.
+	Tag: FindMax
+
 19) 1984. Minimum Difference Between Highest and Lowest of K Scores
+	Линк: https://leetcode.com/problems/rotate-array/
+	Сколько раз решал: 1
+	Время: 08:28
+	Комментарий: Решить без видео.
+	TODO: Прорешать несколько раз.
+	Tag: SortArray
+
 20) 1310. XOR Queries of a Subarray
+	Линк: https://leetcode.com/problems/rotate-array/
+	Сколько раз решал: 1
+	Время: 08:28
+	Комментарий: XOR (go ^), обратная операция XOR - это XOR
+	Tag: PrefixArray
+
 21) 304. Range Sum Query 2D - Immutable
 22) 17. Letter Combinations of a Phone Number
 23) 22. Generate Parentheses
