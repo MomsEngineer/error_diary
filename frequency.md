@@ -151,20 +151,85 @@
 	Комментарий: XOR (go ^), обратная операция XOR - это XOR
 	Tag: PrefixArray
 
+?????????????????????????????
 21) 304. Range Sum Query 2D - Immutable
+
 22) 17. Letter Combinations of a Phone Number
+	Линк: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+	Сколько раз решал: 1
+	Время: 29:37
+	Комментарий: Полный обход в рекурсии.
+	Tag: Backtracking
+
 23) 22. Generate Parentheses
+
 24) 977. Squares of a Sorted Array
+	Линк: https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+	Сколько раз решал: 1
+	Время: 09:18
+	Комментарий: Много мелких ошибок. Лучше проверять перед запуском. Ответ формируем с конца.
+				 Не забываем менять указатели.
+	Tag: TwoPointers
+
 25) 125. Valid Palindrome
+	Линк: https://leetcode.com/problems/valid-palindrome/
+	Сколько раз решал: 1
+	Время: 10:35
+	Комментарий: Много мелких ошибок. Лучше проверять перед запуском. Не забываем про приведение к Lower case.
+				 Не забываем менять указатели.
+	Tag: TwoPointers
+
 26) 167. Two Sum II - Input Array Is Sorted
+	Линк: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+	Сколько раз решал: 1
+	Время: 04:24
+	Комментарий: Ok.
+	Tag: TwoPointers
+
 27) 15. 3Sum
+	Линк: https://leetcode.com/problems/3sum/
+	Сколько раз решал: 1
+	Время: 22:17
+	Комментарий: Сортировка и фиксирование одного из трех элементов. t = m = O(n^2)
+	Tag: TwoPointers
+
 28) 16. 3Sum Closest
+	Линк: https://leetcode.com/problems/3sum-closest/
+	Сколько раз решал: 1
+	Время: 30:42
+	Комментарий: Сортировка и фиксирование одного из трех элементов. Не забыть сравнить target - cur.
+	Tag: TwoPointers
+
 29) 11. Container With Most Water
-30) Intersection Of Sorted Arrays (https://www.interviewbit.com/problems/intersection-of-sorted-arrays/)
+	Линк: https://leetcode.com/problems/container-with-most-water/
+	Сколько раз решал: 1
+	Время: 05:53
+	Комментарий: Не торопиться.
+	Tag: TwoPointers
+
+30) Intersection Of Sorted Arrays
+	Линк: https://www.interviewbit.com/problems/intersection-of-sorted-arrays/
+	Сколько раз решал: 1
+	Время: 06:11
+	Комментарий: Не торопиться.
+	Tag: TwoPointersOnTwoArrays
+
 31) 844. Backspace String Compare
+	Линк: https://leetcode.com/problems/backspace-string-compare/
+	Сколько раз решал: 1
+	Время: 44:39
+	Комментарий: Идея понятно, но идет очень тяжело. Не забыть сравнить в конце.
+	Tag: TwoPointersOnTwoArrays
+
 32) 283. Move Zeroes
+	Линк: https://leetcode.com/problems/move-zeroes/
+	Сколько раз решал: 1
+	Время: 10:15
+	Комментарий: Не торопиться.
+	Tag: FastSlowPointer
+
 33) 14. Longest Common Prefix
-34) One Edit Distance
+34) One Edit Distance (https://www.lintcode.com/problem/640/)
 35) 228. Summary Ranges
 36) 485. Max Consecutive Ones
 37) 849. Maximize Distance to Closest Person
@@ -189,8 +254,8 @@
 
 44) 74. Search a 2D Matrix
 	Линк: https://leetcode.com/problems/search-a-2d-matrix/
-	Сколько раз решал: 1
-	Время: 05:02
+	Сколько раз решал: 2
+	Время: 05:49
 	Комментарий: 2 байнари серча, сначала ищем строку, потом таргет. Или превращаем все в один массив по средством
 				 вычисления указателей -> i = cur/n, j = cur%n, где cur - это индекс псевдо одномерного массива, а
 				 n длина строки len(matrix[0]).
@@ -231,6 +296,7 @@
 	Комментарий: Края не могу быть ответом, функция текущий меньше предыдущего.
 	Tag: BinarySearch
 
+?????????????????????????????
 50) 81. Search in Rotated Sorted Array II
 	Линк: https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 	Сколько раз решал:
@@ -273,30 +339,17 @@
 	Комментарий: Используй Dummy, чтобы не мучится с проверками на коротких списках.
 	Tag: LinkedList
 
-
-**Классические обходы деревьев**
-
-83. Remove Duplicates from Sorted List
-23. Merge k Sorted Lists
-
-- [ ]  [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) - [РЕШЕНИЕ](https://leetcode.com/problems/binary-tree-preorder-traversal/submissions/989075817/)
-- [ ]  [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
-- [ ]  [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
-
-**Обход по уровням**
-
-- [ ]  [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) - [РЕШЕНИЕ](https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/989091886/)
-- [ ]  [**103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) #ВАЖНО**
-- [ ]  [199. Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) - [РЕШЕНИЕ](https://leetcode.com/problems/binary-tree-right-side-view/submissions/989084003/)
-
-**Деревья**
-
-- [ ]  [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) - [РЕШЕНИЕ](https://leetcode.com/problems/symmetric-tree/submissions/969526824/) **#ВАЖНО**
-- [ ]  [100. Same Tree](https://leetcode.com/problems/same-tree/)  - [РЕШЕНИЕ](https://leetcode.com/problems/same-tree/submissions/1025715566/)
-
-**Сумма вершин дерева**
-
-- [ ]  [112. Path Sum](https://leetcode.com/problems/path-sum/) - [РЕШЕНИЕ](https://leetcode.com/problems/path-sum/submissions/989133327/) **#ВАЖНО**
+56) 144. Binary Tree Preorder Traversal
+57) 94. Binary Tree Inorder Traversal
+58) 145. Binary Tree Postorder Traversal
+59) 102. Binary Tree Level Order Traversal
+60) 103. Binary Tree Zigzag Level Order Traversal
+61) 199. Binary Tree Right Side View
+62) 101. Symmetric Tree
+63) 100. Same Tree
+64) 112. Path Sum
+65) 83. Remove Duplicates from Sorted List
+66) 23. Merge k Sorted Lists
 
 Доп
 498. Diagonal Traverse
