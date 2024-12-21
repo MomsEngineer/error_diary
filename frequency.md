@@ -351,6 +351,87 @@
 65) 83. Remove Duplicates from Sorted List
 66) 23. Merge k Sorted Lists
 
+67) 20. Valid Parentheses
+	Линк: https://leetcode.com/problems/valid-parentheses/
+	Сколько раз решал: 1
+	Время: 12:05
+	Комментарий: Пиши внимательно и не торопясь. Обрати внимание на последнюю проверку, в мапе с парами ищем скобку из
+				 стека, а не из строки, так как из строки закрывающая.
+	Tag: Stack
+
+68) 20. Valid Parentheses
+	Линк: https://leetcode.com/problems/daily-temperatures/
+	Сколько раз решал: 1
+	Время: 19:46
+	Комментарий: Много логических ошибок. Решай внимательней и проще.
+	Tag: Stack
+
+69) 1249. Minimum Remove to Make Valid Parentheses
+	Линк: https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
+	Сколько раз решал: 1
+	Время: 45:31
+	Комментарий: Используй стек и пометку # для плохих скобок. Можно в конеце использовать strings.Builder.
+	Tag: Stack
+
+70) 150. Evaluate Reverse Polish Notation
+	Линк: https://leetcode.com/problems/evaluate-reverse-polish-notation/
+	Сколько раз решал: 1
+	Время: 22:59
+	Комментарий: strconv.Atoi.
+	Tag: Stack
+
+71) Balanced Parantheses!
+	Линк: https://www.interviewbit.com/problems/balanced-parantheses/
+	Сколько раз решал: 1
+	Время: 05:32
+	Комментарий: Решаем без стека. Если баланс меньше 0, то сразу выходим.
+	Tag: Balance
+
+72) 71. Simplify Path
+	Линк: https://leetcode.com/problems/simplify-path/
+	Сколько раз решал: 1
+	Время: 25:45
+	Комментарий: Используй strings.Join. strings.Split, создает пустые строки, если несколько слешей подряд.
+	Tag: Stack
+
+73) 56. Merge Intervals
+	Линк: https://leetcode.com/problems/merge-intervals/
+	Сколько раз решал: 1
+	Время: 18:05
+	Комментарий: sort.Slice(arr, func)
+	Tag: Intervals
+
+74) 986. Interval List Intersections
+	Линк: https://leetcode.com/problems/interval-list-intersections/
+	Сколько раз решал: 1
+	Время: 22:26
+	Комментарий: Всегда двигаем итератор, где меньше правая граница, даже когда интервалы не пересекаются.
+	Tag: Intervals
+
+75) 452. Minimum Number of Arrows to Burst Balloons
+	Линк: https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/
+	Сколько раз решал: 1
+	Время: 09:29:48
+	Комментарий: Либо начальные точки минимальные, либо берешь первую, но тогда каунт инициализируется 1.
+	Tag: Intervals
+
+76) 253. Meeting rooms
+	Линк: https://www.interviewbit.com/problems/meeting-rooms/
+	Сколько раз решал: 1
+	Время: 19:00
+	Комментарий: Не чистые интервалы, а метод точек. Каждой точке в начале интервала даем +1, в конце -1, сортируем
+				 и находим максимум. Важно, что у одинаковых точек, сначала -1, потом +1 или наоборот. То есть нужно
+				 уточнить, сначала освобождается переговорка и заходят люди или наоборот.
+	Tag: PointsMethod
+
+77) 1094. Car Pooling
+	Линк: https://leetcode.com/problems/car-pooling/
+	Сколько раз решал: 1
+	Время: 11:04
+	Комментарий: Не чистые интервалы, а метод точек. Если используешь capacity, а не отдельную переменную, то сначала
+				 прибавляешь (пассажиры выходят, места появляются), а потом вычитаешь.
+	Tag: PointsMethod
+
 Доп
 498. Diagonal Traverse
 438. Find All Anagrams in a String
@@ -363,3 +444,4 @@
 643. Maximum Average Subarray I
 Implement Heap
 912. Sort an Array
+394. Decode String
