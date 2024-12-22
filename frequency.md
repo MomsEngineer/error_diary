@@ -375,6 +375,7 @@
 	Время:06:44
 	Комментарий: Обходим лист с двумя указателями(один впереди, другой сзади) и сравниваем.
 	Tag: LinkedList, TwoPointers
+
 66) 23. Merge k Sorted Lists
 
 67) 20. Valid Parentheses
@@ -448,16 +449,15 @@
 				 прибавляешь (пассажиры выходят, места появляются), а потом вычитаешь.
 	Tag: PointsMethod
 
-Доп
-498. Diagonal Traverse
-438. Find All Anagrams in a String
-706. Design HashMap
-380. Insert Delete GetRandom O(1)
-146. LRU Cache
-460. LFU Cache
-424. Longest Repeating Character Replacement
-1446. Consecutive Characters
-643. Maximum Average Subarray I
-Implement Heap
-912. Sort an Array
-394. Decode String
+78) 394. Decode String
+79) 498. Diagonal Traverse
+80) 438. Find All Anagrams in a String
+81) Implement Heap
+82) 706. Design HashMap
+83) 380. Insert Delete GetRandom O(1)
+84) 146. LRU Cache
+85) 460. LFU Cache
+86) 424. Longest Repeating Character Replacement
+87) 1446. Consecutive Characters
+88) 643. Maximum Average Subarray I
+89) 912. Sort an Array
