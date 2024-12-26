@@ -210,17 +210,34 @@
 	Сколько раз решал: 1
 	Время: 10:01
 	Комментарий: быть внимательней.
-	Tag:  Тon-overlapping SlidingWindows
+	Tag:  Non-overlapping SlidingWindows
 36) 485. Max Consecutive Ones
 	Линк: https://leetcode.com/problems/max-consecutive-ones/
 	Сколько раз решал: 1
 	Время: 11:25
 	Комментарий: сначала ищем все одинаковые послеовательности, а потом разбираемся 1 это или 0.
-	Tag:  Тon-overlapping SlidingWindows
-
+	Tag:  Non-overlapping SlidingWindows
 37) 849. Maximize Distance to Closest Person
+	Линк: https://leetcode.com/problems/maximize-distance-to-closest-person/
+	Сколько раз решал: 1
+	Время: 32:14
+	Комментарий: Отвратительная задача. Пустые места считаются как промежутки между цифрами, а не сами места. Стоит
+				 нарисовать крайние случае, когда нет никого слева или справа. Левый указатель выражем через правый.
+				 Правый двигаем в отдельном вложенном цикле пока не отличабтся значения.
+	Tag:  Non-overlapping SlidingWindows
 38) 443. String Compression
+	Линк: https://leetcode.com/problems/maximize-distance-to-closest-person/
+	Сколько раз решал: 1
+	Время: 31:00
+	Комментарий: Можно обойтись одним условием num > 1, а присвоение буквы вынести в начало.
+	Tag:  Non-overlapping SlidingWindows
 39) 1004. Max Consecutive Ones III
+	Линк: https://leetcode.com/problems/max-consecutive-ones-iii/
+	Сколько раз решал: 1
+	Время: 30:42
+	Комментарий: Если начинаешь с нуля оба указателя, то растояние будте right - left без добавления 1,
+				 так как в отличие от пересекающихся окон, правый будет уходить правее нужного окна.
+	Tag: Overlapping SlidingWindows
 40) 3. Longest Substring Without Repeating Characters
 41) 567. Permutation in String
 
