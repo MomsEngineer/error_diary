@@ -201,8 +201,12 @@
 	Время: 10:15
 	Комментарий: Не торопиться.
 	Tag: FastSlowPointer
-
 33) 14. Longest Common Prefix
+	Линк: https://leetcode.com/problems/longest-common-prefix/
+	Сколько раз решал: 1
+	Время: 08:33
+	Комментарий: Не забыть проверить во вложенном цикле, что индекс может быть за границей строки.
+	Tag: TwoPointersOnTwoArrays
 34) One Edit Distance (https://www.lintcode.com/problem/640/)
 
 35) 228. Summary Ranges
@@ -239,6 +243,12 @@
 				 так как в отличие от пересекающихся окон, правый будет уходить правее нужного окна.
 	Tag: Overlapping SlidingWindows
 40) 3. Longest Substring Without Repeating Characters
+	Линк: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+	Сколько раз решал: 1
+	Время: 17:45
+	Комментарий: Правый начинает с -1, так как изначально мапа с символами пуста, если 0, то нужно сразу класть первый
+				 символ.
+	Tag: Overlapping SlidingWindows
 41) 567. Permutation in String
 
 42) 704. Binary Search
@@ -476,5 +486,16 @@
 85) 460. LFU Cache
 86) 424. Longest Repeating Character Replacement
 87) 1446. Consecutive Characters
+	Линк: https://leetcode.com/problems/consecutive-characters/
+	Сколько раз решал: 1
+	Время: 04:15
+	Комментарий: Ищем наибольшую подстроку с одинаковыми символами.
+	Tag: Non-overlapping SlidingWindows
 88) 643. Maximum Average Subarray I
+	Линк: https://leetcode.com/problems/maximum-average-subarray-i/
+	Сколько раз решал: 1
+	Время: 08:07
+	Комментарий: Ищем максимум в фиксированном окне и возращаем среднее как float64.
+	Tag: Fixed SlidingWindows
 89) 912. Sort an Array
+90) 200. Number of Islands
