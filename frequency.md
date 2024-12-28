@@ -250,7 +250,13 @@
 				 символ.
 	Tag: Overlapping SlidingWindows
 41) 567. Permutation in String
-
+	Линк: https://leetcode.com/problems/permutation-in-string/
+	Сколько раз решал: 1
+	Время: 73:55
+	Комментарий: Очень тяжело. Правый двигаем только внутри вложенного цикла. В мапу второй строки добавляем все символы
+				 посредством уменьшения количества вхождений, когда двигаем левую границу. Таким образом у нас
+				 получается, что 0 - 1 = -1 и в условии вложеннго цикла это позволит подвинуть правую границу.
+	Tag: Overlapping SlidingWindows
 42) 704. Binary Search
 	Линк: https://leetcode.com/problems/binary-search/
 	Сколько раз решал: 1
@@ -485,6 +491,13 @@
 84) 146. LRU Cache
 85) 460. LFU Cache
 86) 424. Longest Repeating Character Replacement
+	Линк: https://leetcode.com/problems/longest-repeating-character-replacement/
+	Сколько раз решал: 1
+	Время: 58:20
+	Комментарий: Нужна мапа для хранения частоты встречающихся букв. Основная идея в том, что длина окна минус самая
+				 большая частота в мапе должна быть меньше, чем k. Если это не так, то двигаем левую границу. Правую же
+				 двигаем на каждом шагу и пересчитываем ответ.
+	Tag: SlidingWindows
 87) 1446. Consecutive Characters
 	Линк: https://leetcode.com/problems/consecutive-characters/
 	Сколько раз решал: 1
