@@ -114,7 +114,7 @@
 	Tag: SplitArray
 18) 674. Longest Continuous Increasing Subsequence
 	Линк: https://leetcode.com/problems/longest-continuous-increasing-subsequence/
-	Сколько раз решал: 1
+	Сколько раз решал: 2
 	Время: 06:12
 	Комментарий: Нужно вернуть максимальную длину, а не последнюю. Не забыть проверку.
 	Tag: FindMax
@@ -172,7 +172,7 @@
 	Tag: TwoPointers
 25) 125. Valid Palindrome
 	Линк: https://leetcode.com/problems/valid-palindrome/
-	Сколько раз решал: 1
+	Сколько раз решал: 2
 	Время: 10:35
 	Комментарий: Много мелких ошибок. Лучше проверять перед запуском. Не забываем про приведение к Lower case.
 				 Не забываем менять указатели.
@@ -255,8 +255,8 @@
 				 Правый двигаем в отдельном вложенном цикле пока не отличабтся значения.
 	Tag:  Non-overlapping SlidingWindows
 38) 443. String Compression
-	Линк: https://leetcode.com/problems/maximize-distance-to-closest-person/
-	Сколько раз решал: 1
+	Линк: https://leetcode.com/problems/string-compression/
+	Сколько раз решал: 2
 	Время: 31:00
 	Комментарий: Можно обойтись одним условием num > 1, а присвоение буквы вынести в начало.
 	Tag:  Non-overlapping SlidingWindows
@@ -437,8 +437,8 @@
 	Комментарий: Обходим лист с двумя указателями(один впереди, другой сзади) и сравниваем.
 	Tag: LinkedList, TwoPointers
 66) 23. Merge k Sorted Lists
-	Линк: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
-	Сколько раз решал: 1
+	Линк: https://leetcode.com/problems/merge-k-sorted-lists/
+	Сколько раз решал: 2
 	Время:54:16
 	Комментарий: Используем кучу. Добавляем все первые элементы листов в кучу на минимум. Далее запускаем цикл, пока
 				 куча не пустая, вынимаем минимум и добавляем следующий элемент из списка после вынутого.
