@@ -68,3 +68,8 @@ func TestFindMinProduct(t *testing.T) {
 		})
 	}
 }
+
+func findMinProduct(nums []int) int {
+	// Решение
+	return 0
+}
