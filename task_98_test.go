@@ -57,6 +57,11 @@ func TestFindMinProduct(t *testing.T) {
 			arr:      []int{1000000, 2000000, 3000000},
 			expected: 2000000000000, // 1000000 * 2000000
 		},
+		{
+			name:     "With zero",
+			arr:      []int{0, 1, 2, 3},
+			expected: 2000000000000, // 1000000 * 2000000
+		},
 	}
 
 	for _, tt := range tests {
